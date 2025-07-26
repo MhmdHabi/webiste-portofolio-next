@@ -45,7 +45,7 @@ export default function SkillsPage() {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   return (
-    <div id="skills" className="min-h-screen bg-black text-white py-20 px-10">
+    <div id="skills" className="min-h-screen bg-black text-white py-5 px-5 lg:px-10">
       <div className="max-w-7xl mx-auto text-center">
         <motion.h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight" initial={{ opacity: 0, y: -20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: "easeOut" }} viewport={{ once: true }}>
           My Tech Stack
