@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaReact, FaPython, FaNodeJs, FaVuejs, FaAngular, FaStripe, FaAws, FaJava } from "react-icons/fa";
